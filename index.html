@@ -2,9 +2,34 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>country search</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 </head>
 <body>
+    <article>
+        <div class="header">
+            <h1>Let's search some country information</h1>
+            <img src="earth.jpg" class="earth"/>
+        </div>
+        <div class="btn">
+            <button class="search-btn">SEARCH</button>
+        </div>
+        <div class="container">
+            <div class="wrap">
+                <img src="belgium.jpg" class="flag"/>
+                <h3>Belgium</h3>
+            </div>
+            <div class="info-container">
+                <p>Belgium is situated at <span class="location"></span>, it has a population of <span class="population"></span> people</p>
+                <p>The capital is <span class="capital"></span> and you can pay with <span class="valuta"></span></p>
+                <p>They speak <span class="language"></span></p>
+            </div>
+        </div>
+
+    </article>
+    <script src = main.js></script>
 
 </body>
+
 </html>
