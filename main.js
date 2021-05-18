@@ -27,6 +27,7 @@ window.addEventListener('DOMContentLoaded', function(){
       }
     })
   }
+  setBackToDefault();
 })
 
 })
@@ -41,5 +42,7 @@ async function getCountry(){
 
 }
 
-
+function setBackToDefault(){
+  countryName.value = '';
+}
 
